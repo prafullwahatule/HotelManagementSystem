@@ -15,6 +15,7 @@ Data insertion (dummy/sample data)
 Writing queries for real-life hotel management scenarios
 
 ## 📂 Folder Structure
+```
 HotelManagementSystem/
 │
 ├── README.md # Project overview, setup steps
@@ -27,6 +28,7 @@ HotelManagementSystem/
 └── docs/
 ├── ER_Diagram.png # ER diagram of HotelSalesDB
 └── Project_Report.docx # Documentation
+```
 
 ## 🗄️ Database Schema
 
