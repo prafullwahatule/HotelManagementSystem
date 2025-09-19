@@ -17,16 +17,16 @@ Writing queries for real-life hotel management scenarios
 ## 📂 Folder Structure
 HotelManagementSystem/
 │
-├── README.md                  # Project overview, setup steps
+├── README.md # Project overview, setup steps
 │
-├── schema.sql                 # Database + table creation scripts
-├── seed.sql                   # Sample data inserts
-├── queries.sql                # General queries (SELECT, JOIN, filters)
-├── situational_queries.sql    # Special queries (reporting/business cases)
+├── schema.sql # Database + table creation scripts
+├── seed.sql # Sample data inserts
+├── queries.sql # General queries (SELECT, JOIN, filters)
+├── situational_queries.sql # Special queries (reporting/business cases)
 │
 └── docs/
-    ├── ER_Diagram.png         # ER diagram of HotelSalesDB
-    └── Project_Report.docx    # Documentation
+├── ER_Diagram.png # ER diagram of HotelSalesDB
+└── Project_Report.docx # Documentation
 
 ## 🗄️ Database Schema
 
