@@ -1,4 +1,4 @@
-🏨 Hotel Management System (SQL Project)
+# 🏨 Hotel Management System (SQL Project)
 📌 Project Overview
 
 This project is a SQL-based Hotel Management System that manages hotel operations like customers, rooms, staff, bookings, and payments.
