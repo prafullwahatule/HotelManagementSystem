@@ -1,5 +1,5 @@
 # 🏨 Hotel Management System (SQL Project)
-📌 Project Overview
+## 📌 Project Overview
 
 This project is a SQL-based Hotel Management System that manages hotel operations like customers, rooms, staff, bookings, and payments.
 It is designed for learning and demonstration purposes, with sample data and queries included.
@@ -14,7 +14,7 @@ Data insertion (dummy/sample data)
 
 Writing queries for real-life hotel management scenarios
 
-📂 Folder Structure
+## 📂 Folder Structure
 HotelManagementSystem/
 │
 ├── README.md                  # Project overview, setup steps
@@ -28,7 +28,7 @@ HotelManagementSystem/
     ├── ER_Diagram.png         # ER diagram of HotelSalesDB
     └── Project_Report.docx    # Documentation
 
-🗄️ Database Schema
+## 🗄️ Database Schema
 
 The database HotelSalesDB includes the following tables:
 
@@ -42,7 +42,7 @@ Bookings → Stores booking details (customer, room, staff, dates, amount)
 
 Payments → Stores payment transactions for bookings
 
-⚡ Features
+## ⚡ Features
 
 ✔ Customer management
 ✔ Room availability & pricing
@@ -51,7 +51,7 @@ Payments → Stores payment transactions for bookings
 ✔ Payment tracking
 ✔ Sample data + situational queries
 
-🚀 How to Run
+## 🚀 How to Run
 
 Clone this repository
 
@@ -78,10 +78,10 @@ Run situational/business queries
 
 SOURCE situational_queries.sql;
 
-📊 ER Diagram
+## 📊 ER Diagram
 
 (See docs/ER_Diagram.png for database relationships)
 
-📝 Documentation
+## 📝 Documentation
 
 Detailed project explanation is available in docs/Project_Report.docx.
