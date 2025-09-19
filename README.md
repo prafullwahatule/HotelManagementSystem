@@ -53,30 +53,31 @@ Payments → Stores payment transactions for bookings
 
 ## 🚀 How to Run
 
-Clone this repository
-
+### Clone this repository
+```bash
 git clone https://github.com/prafullwahatule/HotelManagementSystem.git
 cd HotelManagementSystem
+```
 
-
-Open MySQL and run the schema file
-
+### Open MySQL and run the schema file
+```bash
 SOURCE schema.sql;
+```
 
-
-Insert sample data
-
+### Insert sample data
+```bash
 SOURCE seed.sql;
+```
 
-
-Run general queries
-
+### Run general queries
+```bash
 SOURCE queries.sql;
+```
 
-
-Run situational/business queries
-
+### Run situational/business queries
+```bash
 SOURCE situational_queries.sql;
+```
 
 ## 📊 ER Diagram
 
