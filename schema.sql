@@ -17,6 +17,7 @@ USE HotelSalesDB;
 -- Table: Customers
 -- Purpose: Store details of customers who book rooms in the hotel
 -- ==============================================================
+
 CREATE TABLE Customers (
     CustomerID INT PRIMARY KEY AUTO_INCREMENT, -- Unique ID for each customer
     FirstName VARCHAR(50),                     -- Customer's first name
@@ -30,6 +31,7 @@ CREATE TABLE Customers (
 -- Table: Rooms
 -- Purpose: Store details of rooms available in the hotel
 -- ==============================================================
+
 CREATE TABLE Rooms (
     RoomID INT PRIMARY KEY AUTO_INCREMENT,     -- Unique ID for each room
     RoomType VARCHAR(50),                      -- Type of room (Single, Double, Suite)
@@ -41,6 +43,7 @@ CREATE TABLE Rooms (
 -- Table: Staff
 -- Purpose: Store information about hotel staff members
 -- ==============================================================
+
 CREATE TABLE Staff (
     StaffID INT PRIMARY KEY AUTO_INCREMENT,    -- Unique ID for each staff member
     FirstName VARCHAR(50),                     -- Staff first name
@@ -54,6 +57,7 @@ CREATE TABLE Staff (
 -- Table: Bookings
 -- Purpose: Store information about room bookings by customers
 -- ==============================================================
+
 CREATE TABLE Bookings (
     BookingID INT PRIMARY KEY AUTO_INCREMENT,  -- Unique ID for each booking
     CustomerID INT,                            -- Customer who made the booking
@@ -73,6 +77,7 @@ CREATE TABLE Bookings (
 -- Table: Payments
 -- Purpose: Store details of payments made for bookings
 -- ==============================================================
+
 CREATE TABLE Payments (
     PaymentID INT PRIMARY KEY AUTO_INCREMENT,  -- Unique ID for each payment
     BookingID INT,                             -- Related booking ID
